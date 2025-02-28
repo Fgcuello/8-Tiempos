@@ -1,0 +1,51 @@
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    font-family: 'Vollkorn', serif;
+    background-color: #000000; /* Si quieres un fondo oscuro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    padding-top: 35px;
+}
+
+/* Secciones dentro del footer */
+footer section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1200px; /* Para evitar que los elementos se estiren demasiado */
+    color: #5e5e55;
+    text-decoration: none;
+    margin: 1px;
+}
+
+/* Títulos */
+footer h3 {
+    font-size: 1em;
+    color: #5e5e55;
+    padding-left: 20px;
+}
+
+/* Iconos */
+footer i {
+    color: rgb(100, 100, 100);
+    font-size: 1em;
+    margin: 10px;
+}
+
+.insta{
+    padding-left: 20px;
+    background-position: center;
+    margin-left: 30px;
+   
+}
+
+.WhatsApp{
+    padding-left: 20px;
+    background-position: center;
+    margin-left: 30px;
+}
