@@ -1,9 +1,21 @@
+@media (max-width: 768px) {
+    footer section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .insta,
+    footer .WhatsApp {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
 
 footer {
     width: 100%;
     min-height: 100px;
     font-family: 'Vollkorn', serif;
-    background-color: #000000; /* Si quieres un fondo oscuro */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,35 +29,32 @@ footer section {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    max-width: 1200px; /* Para evitar que los elementos se estiren demasiado */
-    color: #5e5e55;
-    text-decoration: none;
+    max-width: 1200px;
+    color: rgba(0, 0, 0, 0.9);
     margin: 1px;
 }
 
 /* Títulos */
+footer h2,
 footer h3 {
     font-size: 1em;
-    color: #5e5e55;
+    color: rgba(0, 0, 0, 0.9);
     padding-left: 20px;
 }
 
 /* Iconos */
 footer i {
-    color: rgb(100, 100, 100);
+    color: rgba(0, 0, 0, 0.9);
     font-size: 1em;
     margin: 10px;
 }
 
-.insta{
+/* Estilos compartidos por imágenes de redes */
+footer .insta,
+footer .WhatsApp {
     padding-left: 20px;
     background-position: center;
     margin-left: 30px;
-   
-}
-
-.WhatsApp{
-    padding-left: 20px;
-    background-position: center;
-    margin-left: 30px;
+    width: 20px;
+    height: auto;
 }

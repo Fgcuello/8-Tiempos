@@ -1,0 +1,71 @@
+/* ----- TÍTULO Y LOGO ----- */
+
+@media (max-width: 768px) {
+    .titulo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img {
+        margin: 0;
+    }
+
+    nav {
+        justify-content: center;
+    }
+}
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.img {
+    width: 250px;
+    border-radius: 35px;
+    object-fit: cover;
+}
+
+.title {
+    color: black;
+    font-size: 2em;
+}
+
+/* ----- NAVEGACIÓN ----- */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    flex-wrap: wrap;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav li a:hover {
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 0.3s ease;
+}
+
+/* Evitar interferencias de otros li */
+li {
+    list-style: none;
+}

@@ -1,0 +1,66 @@
+
+@media (max-width: 768px) {
+    .log {
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .log-card {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+.log {
+    background: #d4dfee;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #a3b1c6, 5px 5px 10px #dfd9d9;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.log-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.log h1 {
+    color: #6d7582;
+    margin-bottom: 20px;
+}
+
+.log-input {
+    padding: 15px;
+    width: 80%;
+    font-size: 16px;
+    color: #6d7582;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.log-input::placeholder {
+    color: #a3b1c6;
+}
+
+.log-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #6d7582;
+    border: none;
+    background-color: #e0e6f0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.log-button:active {
+    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
+}
