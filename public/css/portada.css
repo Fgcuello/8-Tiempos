@@ -18,11 +18,14 @@
 
 
 .titulo {
+   
     display: flex;
     align-items: center;
     padding: 10px;
     border-radius: 10px;
     gap: 30px;
+    
+    
 }
 
 .img {
@@ -44,6 +47,12 @@ nav {
     padding: 10px 20px;
     background: transparent;
     flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+    
 }
 
 nav li {
