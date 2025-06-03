@@ -1,158 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../public/css/style.css" />
+        <link rel="stylesheet" href="../public/css/stylegeneral.css" />
+        <link rel="stylesheet" href="../public/css/portada.css" />
+        <link rel="stylesheet" href="../public/css/footers.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
+        <title>8 Tiempos - Estudio de Danza</title>
+        <title>Mapa con GPS</title>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet/dist/leaflet.css"
+        />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../public/css/style.css">
-  <link rel="stylesheet" href="../public/css/stylegeneral.css">
-  <link rel="stylesheet" href="../public/css/portada.css">
-  <link rel="stylesheet" href="../public/css/footers.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <title>8 Tiempos - Estudio de Danza</title>
-  <title>Mapa con GPS</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <style>
-      #mapa {
-          height: 400px;
-          width: 100%;
-      }
-  </style>
-</head>
+    <body>
+        <header></header>
+        <main>
+            <p>
+                La danza jazz es una clasificación integrada por una amplia gama
+                de estilos de baile. Antes de la década de 1950, se refiere a la
+                danza originada a partir de estilos de danza africana vernácula
+                de América. En la década de 1950 surgió un nuevo género de danza
+                jazz, la danza moderna jazz, con raíces en la danza tradicional
+                del Caribe. Todos los estilos personales de danza jazz tienen
+                raíces atribuibles a uno de estos dos orígenes. Los distintos
+                tipos de jazz son: el tradicional, el góspel, el funk y el
+                primitivo afrocaribeño. Un estilo más pulido es el Broadway
+                jazz, que se baila en los musicales de Nueva York y en otras
+                ciudades. Emplea múltiples técnicas como las del ballet clásico,
+                de la danza contemporánea y la expresión corporal.
+            </p>
 
-<body>
-   <div>
-<div class="fondo-oscuro">
-  <div class="titulo">
-    <img class="img" src="../public/images/logo8time.png" alt="">
-    <h1 class="title">8 TIEMPOS - ESTUDIO DE DANZA</h1>
-    <!--SOLO SE PUEDE UTILIZAR UNA VEZ, POR QUE SINO PENALIZA GOOGLE-->
-  </div>
+            <div class="cuadro">
+                <img class="imgen" src="../public/images/a.jpeg" alt="" />
+                <img class="imgen" src="../public/images/b.jpeg" alt="" />
+                <img class="imgen" src="../public/images/c.jpeg" alt="" />
+                <img class="imgen" src="../public/images/d.jpeg" alt="" />
+                <img class="imgen" src="../public/images/f.jpeg" alt="" />
+            </div>
 
-  <!-- SECCION DE NAVEGACION -->
-  <nav class="navegacion">
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./galeria.html">Galeria</a></li>
-        <li><a href="./nosotros.html">Historia</a></li>
-        <li><a href="./login.html">Login</a></li>
-       
-  </nav>
+            <p>
+                La Danza Jazz fue tomando elementos del ballet, así como de
+                otros bailes más modernos. Pasó por diferentes influencias de
+                bailes como el charlestón, el big apple y el jitterbug. Como
+                danza para el escenario, la danza teatral de la década de 1940
+                experimentó un desarrollo mayor y en las décadas de 1950 y 1960
+                surgió un estilo que tomaba los elementos que necesitaba tanto
+                del ballet como de la danza moderna y del claqué. Así desde ese
+                momento generando varias ramificaciones de la danza jazz. En la
+                actualidad esta danza es más practicada por niños, adolescentes
+                y adultos sin importar género o color de piel. Aplicando una
+                gran variedad de movimientos modernos, que cada coreógrafo
+                implementa desde su creatividad haciéndolo único y diferente.
+            </p>
 
-  <p> La danza jazz es una clasificación integrada por una amplia gama de estilos de baile. Antes de la década de 1950,
-    se refiere a la danza originada a partir de estilos de danza africana vernácula de América. En la década de 1950
-    surgió un nuevo género de danza jazz, la danza moderna jazz, con raíces en la danza tradicional del Caribe. Todos
-    los estilos personales de danza jazz tienen raíces atribuibles a uno de estos dos orígenes. Los distintos tipos de
-    jazz son: el tradicional, el góspel, el funk y el primitivo afrocaribeño. Un estilo más pulido es el Broadway jazz,
-    que se baila en los musicales de Nueva York y en otras ciudades. Emplea múltiples técnicas como las del ballet
-    clásico, de la danza contemporánea y la expresión corporal.</p>
+            <!--<a href="https://www.youtube.com/@8tiemposdanza" target="_blank"> Clases de estiramiento</a> <!--LA ETIQUETA target="_blank" ES PARA DIRECCIONAR A OTRA PAGINA-->
 
-  <div class="cuadro">
-    <img class="imgen" src="../public/images/a.jpeg" alt="">
-    <img class="imgen" src="../public/images/b.jpeg" alt="">
-    <img class="imgen" src="../public/images/c.jpeg" alt="">
-    <img class="imgen" src="../public/images/d.jpeg" alt="">
-    <img class="imgen" src="../public/images/f.jpeg" alt="">
+            <!---------------------------UBICACION GPS----------------------------------->
 
-  </div>
+            <h2>Ubicación en el Mapa</h2>
 
-  <p> La Danza Jazz fue tomando elementos del ballet, así como de otros bailes más modernos. Pasó por diferentes
-    influencias de bailes como el charlestón, el big apple y el jitterbug. Como danza para el escenario, la danza
-    teatral de la década de 1940 experimentó un desarrollo mayor y en las décadas de 1950 y 1960 surgió un estilo que
-    tomaba los elementos que necesitaba tanto del ballet como de la danza moderna y del claqué. Así desde ese momento
-    generando varias ramificaciones de la danza jazz.
-
-    En la actualidad esta danza es más practicada por niños, adolescentes y adultos sin importar género o color de piel.
-    Aplicando una gran variedad de movimientos modernos, que cada coreógrafo implementa desde su creatividad haciéndolo
-    único y diferente.</p>
-
-
-  <!--<a href="https://www.youtube.com/@8tiemposdanza" target="_blank"> Clases de estiramiento</a> <!--LA ETIQUETA target="_blank" ES PARA DIRECCIONAR A OTRA PAGINA-->
-
-
-<!---------------------------UBICACION GPS----------------------------------->
-
-
-  <h2>Ubicación en el Mapa</h2>
-  <div id="mapa"></div>
-
-  <script>
-      let mapa;
-      
-      function inicializarMapa(lat, lon) {
-          if (!mapa) {
-              mapa = L.map('mapa').setView([lat, lon], 13);
-              L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                  attribution: '&copy; OpenStreetMap contributors'
-              }).addTo(mapa);
-          } else {
-              mapa.setView([lat, lon], 13);
-          }
-
-          L.marker([lat, lon]).addTo(mapa)
-              .bindPopup("¡8-Tiempos 😊 !")
-              .openPopup();
-      }
-
-      function obtenerUbicacion() {
-          if ("geolocation" in navigator) {
-              navigator.geolocation.getCurrentPosition(
-                  function (position) {
-                      let lat = position.coords.latitude=-27.787981563328263; 
-                      let lon = position.coords.longitude=-64.26573869580358;
-                      inicializarMapa(lat, lon);
-                  },
-                  function (error) {
-                      alert("No se pudo obtener la ubicación.");
-                  }
-              );
-          } else {
-              alert("Tu navegador no soporta la geolocalización.");
-          }
-      }
-      window.onload = obtenerUbicacion;
-  </script>
-
-<!---------------------------------------------------------------------------------------------------------------------------------->
-
-  <script src="../script.js"></script>
-
-
-  <footer>
-
-      <section>
-
-        <div class="instagram">
-         
-          <h2>INSTAGRAM</h2>
-          <a href="https://www.instagram.com/8tiempos.danza?igsh=ZXNucXVtcHZteDQz" target="_blank"> <img class="insta" src="../public/images/insta.png"  alt="instagram" width="20px">
-          </a>
-
-        </div>
-
-        <div>
-         
-          <h2>WHATSAPP</h2>
-          <a href="https://wa.me/5491166670812" target="_blank"><img class="WhatsApp" src="../public/images/whatsapp.png" width="20px">
-          </a>
-
-        </div>
-
-        <div>
-      
-          <h2>HORARIOS</h2>
-          <h3> Martes y Jueves</h3>
-          <h2> 15:00 a 16:30 hs</h2>
-
-        </div>
-
-      </section>
-
-      <p class="parrafo1" style="color:#5e5e55">Copyright © 8 Tiempos - Estudio de Danza 2025</p>
-
-  </footer>
-</div>
-</div>
-</body>
-
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8395.179261595411!2d-64.26937506720368!3d-27.787043689986707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b52116541bda1%3A0x63357d1eff4af526!2sPlaza%20Libertad%20Santiago%20del%20Estero!5e0!3m2!1ses!2sar!4v1748986702805!5m2!1ses!2sar"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </main>
+        <footer></footer>
+        <script src="../layout.js"></script>
+    </body>
 </html>

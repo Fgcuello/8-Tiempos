@@ -1,9 +1,10 @@
 body{
     margin: 0;
     background-color: rgb(0, 0, 0);
-    font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: linear-gradient(to bottom, #fce4ec, #f8bbd0, #f48fb1);
     color: #2e2e2e; 
+    min-width: none;
     
 }
+

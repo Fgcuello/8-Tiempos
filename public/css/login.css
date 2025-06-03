@@ -3,12 +3,17 @@
     .log {
         margin: 20px auto;
         width: 90%;
-    }
-
-    .log-card {
-        width: 100%;
         padding: 20px;
     }
+}
+    
+body{
+    min-height: 100vh;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .log {
@@ -17,10 +22,8 @@
     box-shadow: 10px 10px 20px #a3b1c6, 5px 5px 10px #dfd9d9;
     padding: 20px;
     max-width: 400px;
+    min-height: 00px;
     margin: 0 auto;
-}
-
-.log-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +31,11 @@
     padding: 30px;
     width: 100%;
     text-align: center;
+
 }
+
+
+   
 
 .log h1 {
     color: #6d7582;
