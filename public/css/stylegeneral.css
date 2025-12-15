@@ -1,9 +1,9 @@
 body{
     margin: 0;
-    background-color: rgb(0, 0, 0);
+    background-color:#a59b9b;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(to bottom, #fce4ec, #f8bbd0, #f48fb1);
-    color: #2e2e2e; 
+    background: linear-gradient(180deg, #1C1C1E, #262628);
+    color: #a59b9b; 
     min-width: none;
     
 }

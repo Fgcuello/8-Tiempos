@@ -12,6 +12,8 @@
     }
 }
 
+
+
 footer {
     width: 100%;
     min-height: 100px;
@@ -30,7 +32,7 @@ footer section {
     justify-content: space-evenly;
     width: 100%;
     max-width: 1200px;
-    color: rgba(0, 0, 0, 0.9);
+    color: #a59b9b;
     margin: 1px;
 }
 
@@ -38,13 +40,13 @@ footer section {
 footer h2,
 footer h3 {
     font-size: 1rem;
-    color: rgba(0, 0, 0, 0.9);
+    color: #a59b9b;
     padding-left: 20px;
 }
 
 /* Iconos */
 footer i {
-    color: rgba(0, 0, 0, 0.9);
+    color:#a59b9b;
     font-size: 1rem;
     margin: 10px;
 }

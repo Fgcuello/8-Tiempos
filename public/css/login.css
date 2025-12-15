@@ -17,9 +17,8 @@ footer{
 }
 
 .log {
-    background: #d4dfee;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px #a3b1c6, 5px 5px 10px #dfd9d9;
+    background: #c1c4c9;
+    border-radius: 15px;
     padding: 20px;
     max-width: 400px;
     min-height: 00px;
@@ -31,11 +30,7 @@ footer{
     padding: 30px;
     width: 100%;
     text-align: center;
-
 }
-
-
-   
 
 .log h1 {
     color: #6d7582;

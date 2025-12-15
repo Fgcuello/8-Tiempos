@@ -1,5 +1,5 @@
-window.onload = ()=>{
-const templateHeader = `  
+window.onload = () => {
+    const templateHeader = `  
       <div class="fondo-oscuro">
         <div class="titulo">
           <img class="img" src="../public/images/logo8time.png" alt="">
@@ -11,9 +11,9 @@ const templateHeader = `
           <li><a href="./nosotros.html">Historia</a></li>
           <li><a href="./login.html">Login</a></li>
         </nav>`;
-document.querySelector("header").innerHTML= templateHeader
+    document.querySelector('header').innerHTML = templateHeader;
 
-const templateFooter = ` 
+    const templateFooter = ` 
     <section>
       <div class="instagram">
         <h2>INSTAGRAM</h2>
@@ -33,6 +33,6 @@ const templateFooter = `
         <h2> 15:00 a 16:30 hs</h2>
       </div>
     </section>
-    <p class="parrafo1" style="color:#5e5e55">Copyright © 8 Tiempos - Estudio de Danza 2025</p>`
-    document.querySelector("footer").innerHTML= templateFooter
-}
+    <p class="parrafo1" style="color:#5e5e55">Copyright © 8 Tiempos - Estudio de Danza 2025</p>`;
+    document.querySelector('footer').innerHTML = templateFooter;
+};
